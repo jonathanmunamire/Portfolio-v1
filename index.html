@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="popup-overlay hide"></section>
+    <div class="popup-menu hide">
+      <i class="fa fa-remove"></i>
+      <ul class="popup-menu-items">
+        <li><a class="popup-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="popup-link" href="#about">About</a></li>
+        <li><a class="popup-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <header>
+      <div class="logo">GedeonTS</div>
+      <nav>
+        <i class="fa fa-reorder humburger"></i>
+        <ul class="menu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="headline-section">
+      <h1>Greetings, I'm Gedeon</h1>
+      <p>
+        As a seasoned software developer, I offer my services to help bring your vision to life by developing a product, feature, or website. Please take a moment to review my portfolio and professional experience. Should you find my skills and qualifications to be a match for your project needs, I invite you to reach out to me for further discussions.
+      </p>
+      <h2>LET'S CONNECT</h2>
+      <ul class="socials">
+        <li>
+          <a href="https://twitter.com/Gedeon191" target="_blank">
+            <img src="./ICONS/Vector(1).svg" alt="twitter" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ushindi-gedeon/" target="_blank">
+            <img src="./ICONS/Linkedinicon.svg" alt="linkedin" /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/@Ushindi_Gedeon" target="_blank">
+            <img src="./ICONS/Vector(2).svg" alt="medium" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/GedeonTS" target="_blank">
+            <img src="./ICONS/Vector(3).svg" alt="github" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./ICONS/Vector(4).svg" alt="angelist" /></a>
+        </li>
+      </ul>
+    </section>
+    <section class="works" id="portfolio"></section>
+    <section id="about" class="about">
+      <div class="about-top">
+        <h2>About Myself</h2>
+        <p>
+          As a software developer, I possess the skills and expertise required to assist you in building 
+          a product, feature, or website. Please review my portfolio and professional background to gain
+           a better understanding of my capabilities. Should you have a project in need of development 
+           and find my experience and work to be suitable, please do not hesitate to reach out to me. 
+           I would be happy to discuss how I can contribute to your success.
+        </p>
+        <h3>LET'S CONNECT</h3>
+        <ul class="socials-about socials">
+          <li>
+            <a href="https://twitter.com/Gedeon191" target="_blank">
+              <img src="./ICONS/Vector(1).svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ushindi-gedeon-73032a228/" target="_blank">
+              <img src="./ICONS/Linkedinicon.svg" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@Ushindi_Gedeon" target="_blank">
+              <img src="./ICONS/Vector(2).svg" alt="medium" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/GedeonTS" target="_blank">
+              <img src="./ICONS/Vector(3).svg" alt="github" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./ICONS/Vector(4).svg" alt="angelist" /></a>
+          </li>
+        </ul>
+        <a class="resume-btn" href="./My-resume.pdf" download>Get my resume</a>
+      </div>
+      <div class="about-second">
+  
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form action="https://formspree.io/f/mvolqndo" method="post">
+        <input
+          type="text"
+          name="name"
+          class="form-name"
+          placeholder=" Your name"
+          maxlength="30"
+          required
+        />
+        <input type="email"  class="form-email" name="name" placeholder=" Your email" required />
+        <textarea maxlength="500" class="form-text" required>
+write your message here</textarea
+        >
+        <button class="submit-button" type="submit">Get in touch</button>
+      </form>
+    </section>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
