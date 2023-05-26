@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-Click [here](https://portfoliogts.netlify.app/)
+Click [here]()
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ You can have a copy of this repo run on your local machine by just directly clon
 
 1. - [ ] Open the `Terminal`
 2. - [ ] Navigate to the directory where you want to add this repository
-3. - [ ] Run `git clone https://github.com/GedeonTS/PORTFOLIO.git`
+3. - [ ] Run `git clone https://github.com/jonathanmunamire/Portfolio-v1.git`
 4. - [ ] Run `npm install` to install the necessary modules
 
 ### Prerequisites
@@ -61,28 +61,11 @@ $ npx eslint .
 
 ## Author
 
-👤 **GedeonTS**
+👤 **Jonathan Munamire**
 
-- GitHub: [@GedeonTS](https://github.com/GedeonTS)
-- Twitter: [@Gedeon191](https://twitter.com/Gedeon191)
-- LinkedIn: [Ushindi Gedeon](https://linkedin.com/in/ushindi-gedeon-73032a228)
-
-## Contributors
-
-👤 **kwambiee**
-- GitHub: [@kwambiee](https://github.com/kwambiee)
-- Twitter: [@kwambiee](https://twitter.com/JkKwamboka)
-- LinkedIn: [Joyous kwambiee](https://linkedin.com/)
-
-👤 **Kwentsir**
-- GitHub: [@Kwentsir](https://github.com/Kwentsir)
-- Twitter: [@jkwentsir](https://twitter.com/jkwentsir)
-- LinkedIn: [Kwenstsir](https://linkedin.com/in/)
-
-👤 **JauJau088**
-- GitHub: [@JauJau088](https://github.com/JauJau088)
-- Twitter: [@jaujauj](https://twitter.com/jaujauj)
-- LinkedIn: [Jauhari Alafi](https://linkedin.com/in/jauhari-alafi-7295b821a/)
+- GitHub: [@jonathanmunamire](https://github.com/jonathanmunamire)
+- Twitter: [@amanimunamire](https://twitter.com/amanimunamire)
+- LinkedIn: [Jonathan Munamire](https://www.linkedin.com/in/jonathanmunamire/)
 
 ## 🤝 Contributing
 
