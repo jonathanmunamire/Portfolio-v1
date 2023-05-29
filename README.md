@@ -5,7 +5,7 @@
 
 | Mobile Version                                                                  | Desktop Version                                           |
 | --------------------------------------------------------------------------------| --------------------------------------------------------- |
-|![Screenshot from 2022-06-07 10-37-54](https://user-images.githubusercontent.com/97834160/172338762-74599d1f-8812-4a0c-b66d-e3224f95db29.png)|![Screenshot from 2022-06-07 10-37-32](https://user-images.githubusercontent.com/97834160/172338531-30868755-9b35-4a56-b52b-72d29eebcd49.png)|
+|![Screenshot from 2022-06-07 10-37-54](/IMG/Screenshot%20from%202023-05-29%2011-01-55.png)|![Screenshot from 2022-06-07 10-37-32](/IMG/Screenshot%20from%202023-05-29%2011-00-41.png)|
 
 ## Built With
 
