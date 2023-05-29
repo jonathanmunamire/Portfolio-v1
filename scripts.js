@@ -47,51 +47,51 @@ popupLinks.forEach((link) => {
 // works section
 const projects = [
   {
-    imageMobile: './IMG/projects/yatch_house.jpg',
-    imageDesktop: './IMG/projects/yatch_house.jpg',
-    projectTitle: 'Yatch House',
-    stack: 'Full Stack Dev',
+    imageDesktop2: './IMG/projects/countries.png',
+    imageDesktop: './IMG/projects/countries1.png',
+    projectTitle: 'Countries',
+    stack: 'Front End Dev',
     year: '2022',
-    demo: 'https://yatch-house.netlify.app/',
-    source: 'https://github.com/GedeonTS/yatch_house',
-    description2: 'An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs.',
-    description: 'An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs.',
-    technologies: ['Ruby', 'Rails', 'Reactjs'],
+    demo: 'https://countries-jonmun.netlify.app/',
+    source: 'https://github.com/jonathanmunamire/Countries',
+    description: 'An application that provides information of all countries in a simple and friendly manner',
+    description2: 'An application that provides information of all countries in a friendly manner, with information such as the time-zone, the languages spoken and a simple country-search implementation',
+    technologies: ['JavaScript', 'Html', 'Css'],
   },
   {
-    imageMobile: './IMG/projects/recipeLight.png',
-    imageDesktop: './IMG/projects/RecipeImage.png',
-    projectTitle: 'Recipe App',
+    imageDesktop2: './IMG/projects/budget.png',
+    imageDesktop: './IMG/projects/budget1.png',
+    projectTitle: 'Budget App',
     stack: 'Full Stack Dev',
-    year: '2022',
-    demo: 'https://recipe-gedeonts.herokuapp.com/',
-    source: 'https://github.com/GedeonTS/Recipe-app',
-    description2: 'An app that keeps track of all your recipes, ingredients, and inventory. It also allows you to create a shopping list based on the recipes you want to cook.',
-    description: 'An app that keeps track of all your recipes, ingredients, and inventory. It also allows you to create a shopping list based on the recipes you want to cook.',
+    year: '2023',
+    demo: 'https://budget-app-ti47.onrender.com/',
+    source: 'https://github.com/jonathanmunamire/Budget-App',
+    description2: 'A mobile web application where you can manage your budget, with a list of transactions associated with each category and with authorisation and authentication implemented',
+    description: 'A mobile web application where you can manage your budget, with a list of transactions associated with each category and with authorisation and authentication implemented',
     technologies: ['Ruby', 'Rails', 'PostgresSQL'],
   }, {
-    imageMobile: './IMG/projects/movie-website.png',
-    imageDesktop: './IMG/projects/movie-website.png',
+    imageDesktop2: './IMG/projects/movies.png',
+    imageDesktop: './IMG/projects/movies1.png',
     projectTitle: 'Movie-website',
     stack: 'Front End Dev',
     year: '2022',
-    demo: 'https://gedeonts.github.io/movie-website/',
-    source: 'https://github.com/GedeonTS/movie-website',
+    demo: 'https://jonathanmunamire.github.io/Movies-Api/dist/',
+    source: 'https://github.com/jonathanmunamire/Movies-Api',
     description2: 'A website which displays a list of movies and allows the user to leave a comment and like.',
     description: 'A website that displays a list of movies and allows the user to leave a comment and like.',
-    technologies: ['javasCript', 'Html', 'css'],
+    technologies: ['JavaScript', 'Html', 'Css'],
   },
    {
-    imageMobile: './IMG/projects/air.png',
-    imageDesktop: './IMG/projects/air.png',
-    projectTitle: 'Air quality',
+    imageDesktop2: './IMG/projects/crypto.png',
+    imageDesktop: './IMG/projects/crypto1.png',
+    projectTitle: 'Crypto',
     stack: 'Front End Dev',
     year: '2022',
-    demo: 'https://air-quality-monitoring-a.netlify.app/',
-    source: 'https://github.com/GedeonTS/air-quality-monitor-app',
-    description: 'A single page mobile application(SPA) that provides air pollution data from European capitals,',
-    description2: 'A single page mobile application(SPA) that provides air pollution data from European capitals, using the the air pollution API that provides the amount of CO,NH3,NO,NO2,O3 and most importantly the PM2_5,PM10,SO2.',
-    technologies: ['javasCript', 'React', 'css'],
+    demo: 'https://crypto-jonmun.netlify.app/',
+    source: 'https://github.com/jonathanmunamire/Crypto',
+    description: 'A single page mobile application(SPA) that provides live data from different crypto-currencies,',
+    description2: 'A single page mobile application(SPA) that provides live data from European capitals, using the the Crypto-currency API that provides the price, the market cap, the ATH and most importantly the Price Change 24hr',
+    technologies: ['JavaScript', 'React', 'Css'],
   },
 ];
 
@@ -132,7 +132,7 @@ projects.forEach((project) => {
 <li>${project.year}</li>
 </ul>
 <img src="${project.imageMobile}" class="card-image-mobile">
-<img src="${project.imageDesktop}" class="card-image-desktop desktop-popup-image">
+<img src="${project.imageDesktop2}" class="card-image-desktop desktop-popup-image">
 <div class="project-content">
 <div class="project-popup-descritpion">
 <p class="project-descritpion">${project.description2}</p>
@@ -248,20 +248,6 @@ AboutSection.innerHTML = ` <div class="languages-topic list-item">
 </li>
 <li>
   <img
-    src="./IMG/php.png"
-    alt="image"
-    class="languages-item"
-  />PHP
-</li>
-<li>
-  <img
-    src="./IMG/python.png"
-    alt="image"
-    class="languages-item"
-  />python
-</li>
-<li>
-  <img
     src="./IMG/ruby.png"
     alt="image"
     class="languages-item"
@@ -293,10 +279,7 @@ AboutSection.innerHTML = ` <div class="languages-topic list-item">
   <img src="./IMG/rubyonrails.png" class="languages-item" alt="image"/>Ruby on Rails
 </li>
 <li>
-  <img src="./IMG/react.png" class="languages-item" alt="image"/>React/React Native
-</li>
-<li>
-  <img src="./IMG/express.png" class="languages-item" alt="image"/>Express
+  <img src="./IMG/react.png" class="languages-item" alt="image"/>React
 </li>
 </ul>
 <div class="languages-topic list-item">
