@@ -258,7 +258,7 @@ AboutSection.innerHTML = ` <div class="languages-topic list-item">
   alt="image"/>HTML
 </li>
 <li>
-  <img src="./IMG/Languages/js.png" class="languages-item" alt="image"/>CSS
+  <img src="./IMG/Languages/css3.png" class="languages-item" alt="image"/>CSS
 </li>
 </ul>
 <div class="languages-topic list-item">
