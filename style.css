@@ -588,11 +588,6 @@ article {
     margin-left: 6.4%;
   }
 
-  .logo:hover {
-    -webkit-animation: logo-hover 3s infinite;
-    animation: logo-hover 3s infinite;
-  }
-
   @-webkit-keyframes logo-hover {
     0% {
       margin-left: 6.4%;
@@ -676,8 +671,6 @@ article {
     margin-left: 0;
     padding-top: 35%;
     margin-bottom: 0;
-    -webkit-animation: left 1s 1;
-    animation: left 1s 1;
   }
 
   .headline-section p {
@@ -689,8 +682,6 @@ article {
     margin-bottom: 0;
     width: 87.2%;
     margin-left: 0;
-    -webkit-animation: right 2s 1;
-    animation: right 2s 1;
   }
 
   .headline-section h2 {
@@ -864,11 +855,6 @@ article {
     width: 48px;
     margin-top: 1rem;
     margin-left: -2rem;
-  }
-
-  .socials li img:hover {
-    width: 24px;
-    height: 24px;
   }
 
   .contact {
