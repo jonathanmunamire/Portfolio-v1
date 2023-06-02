@@ -556,6 +556,22 @@ article {
 
 /* ============================(MEDIUM SCREENS)================================== */
 @media screen and (min-width: 375px) {
+  header {
+    position: fixed;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 6.4%;
+  }
+
+  .humburger {
+    margin-right: 15px;
+  }
+  
   .headline-section {
     display: flex;
     flex-direction: column;
