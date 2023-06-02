@@ -47,6 +47,7 @@ popupLinks.forEach((link) => {
 // works section
 const projects = [
   {
+    imageMobile: './IMG/projects/countriesmobile.png',
     imageDesktop2: './IMG/projects/countries.png',
     imageDesktop: './IMG/projects/countries1.png',
     projectTitle: 'Countries',
@@ -59,6 +60,7 @@ const projects = [
     technologies: ['JavaScript', 'Html', 'Css'],
   },
   {
+    imageMobile: './IMG/projects/budgetmobile.png',
     imageDesktop2: './IMG/projects/budget.png',
     imageDesktop: './IMG/projects/budget1.png',
     projectTitle: 'Budget App',
@@ -70,6 +72,7 @@ const projects = [
     description: 'A mobile web application where you can manage your budget, with a list of transactions associated with each category and with authorisation and authentication implemented',
     technologies: ['Ruby', 'Rails', 'PostgresSQL'],
   }, {
+    imageMobile: './IMG/projects/moviesmobile.png',
     imageDesktop2: './IMG/projects/movies.png',
     imageDesktop: './IMG/projects/movies1.png',
     projectTitle: 'Movie-website',
@@ -82,6 +85,7 @@ const projects = [
     technologies: ['JavaScript', 'Html', 'Css'],
   },
    {
+    imageMobile: './IMG/projects/cryptomobile.png',
     imageDesktop2: './IMG/projects/crypto.png',
     imageDesktop: './IMG/projects/crypto1.png',
     projectTitle: 'Crypto',
@@ -297,16 +301,16 @@ AboutSection.innerHTML = ` <div class="languages-topic list-item">
 </div>
 <div class=" languages contents hide">
 <div class="technical-skill">
- React,Redux, Ruby on Rails,postgresql
+ Collaboration
 </div>
 <div class="technical-skill">
  Effective Communication
 </div>
 <div class="technical-skill">
- Working in Teams
+ Team-Work
 </div>
 <div class="technical-skill">
-  Problem Solving
+  Problem-Solving
 </div>
 <div class="technical-skill">
   Adaptability
@@ -316,6 +320,9 @@ AboutSection.innerHTML = ` <div class="languages-topic list-item">
 </div>
 <div class="technical-skill">
   Creativity
+</div>
+<div class="technical-skill">
+  Time management
 </div>
 </div>`;
 
